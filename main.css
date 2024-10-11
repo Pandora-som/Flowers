@@ -1,0 +1,14 @@
+.header_line {
+    height: 89px;
+    background-color: #728567;
+}
+body {
+    margin:0;
+}
+#listok_1 {
+    /*transform: rotate(33.88deg);*/
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top:0;
+}
