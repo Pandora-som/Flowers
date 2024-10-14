@@ -6,7 +6,6 @@ body {
     margin:0;
 }
 #listok_1 {
-    /*transform: rotate(33.88deg);*/
     position: absolute;
     z-index: -1;
     right: 0;
@@ -57,6 +56,32 @@ body {
     max-width: 197px;
     width: 100%;
     justify-content: space-between;
+}
+.info-block {
+    max-width: 843px;
+    min-height: 386px;
+    background-color: #EAEDE7;
+    box-shadow: 0 4px 4px 0 #00000025;
+    margin-top: 74px;
+    margin-left: 410px;
+    display: flex;
+    flex-direction: row;
+}
+.info-block img {
+    margin-left: 90px;
+    margin-top: 33px;
+}
+.info-text p {
+    margin-top: 77px;
+    margin-left: 108px;
+    font-family: interLight;
+    font-size: 22px;
+}
+.info-text p:nth-child(2){
+    margin-top: 35px;
+    margin-left: 275px;
+    font-family: interLight;
+    font-size: 20px;
 }
 @font-face {
     font-family: interExtraLight;
