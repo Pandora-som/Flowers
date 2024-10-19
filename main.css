@@ -11,6 +11,12 @@ body {
     right: 0;
     top:0;
 }
+#listok_2 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 367px;
+}
 .header {
     max-width: 1148px;
     min-height: 92px;
@@ -42,6 +48,9 @@ body {
     color:#000;
     text-underline-offset: 3px;
 }
+.link:hover {
+    border-bottom: 5px solid #6AAD46;
+}
 .nav {
     max-width: 530px;
     width: 100%;
@@ -52,7 +61,7 @@ body {
 .actions {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-self: center;
     max-width: 197px;
     width: 100%;
     justify-content: space-between;
@@ -67,7 +76,7 @@ body {
     display: flex;
     flex-direction: row;
 }
-.info-block img {
+.vase-img {
     margin-left: 90px;
     margin-top: 33px;
 }
@@ -82,6 +91,37 @@ body {
     margin-left: 275px;
     font-family: interLight;
     font-size: 20px;
+}
+.btn-catalog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 162px;
+    height: 63px;
+    margin: 0 auto;
+    font-family: interRegular;
+    font-size: 16px;
+    border-radius: 30px;
+    border:0;
+    box-shadow: 0 4px 4px 0 #00000025;
+    margin-top: 44px;
+    margin-left: 157px;
+    padding-left: 33px;
+    transition: all 500ms ease;
+}
+.btn-catalog img {
+    padding-right: 11px;
+    padding-bottom: 11px;
+}
+.btn-catalog:hover {
+    cursor: pointer;
+    transform:scale(1.1);
+}
+.slaider p {
+    text-align: center;
+    font-family: interRegular;
+    font-size: 22px;
+    margin-top: 32px;
 }
 @font-face {
     font-family: interExtraLight;
