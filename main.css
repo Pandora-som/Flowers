@@ -123,6 +123,66 @@ body {
     font-size: 22px;
     margin-top: 32px;
 }
+.card-1 {
+    width: 253px;
+    height: 353px;
+    background-color: #E1E2DB;
+    margin-top: 42px;
+    margin-left: 410px;
+}
+.card-1 img {
+    margin-top: 22px;
+    margin-left: 46px;
+
+}
+.line-block {
+    width: 253px;
+    height: 73px;
+    background-color: #FFFFFF54;
+    margin-top: -35px;
+    position: absolute;
+    z-index: 1;
+}
+.line-block p {
+    margin-top: 10px;
+    margin-right: 165px;
+    font-family: interLight;
+    font-size: 16px;
+}
+.line-block p:nth-child(2) {
+    margin-top: -7px;
+    margin-right: 175px;
+    font-family: interSemiBold;
+    font-size: 16px;
+}
+.line-block p:nth-child(3) {
+    margin-top: -40px;
+    margin-right: 22px;
+    font-family: interRegular;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.bag-add {
+    font-family: interLight;
+    font-size: 16px;
+    color: #C5C5AC;
+    width: 253px;
+    height: 63px;
+    background-color: #4F5B4A;
+    border:0;
+    margin-top: 39px;
+    transition: all 500ms ease;
+}
+.bag-add:hover {
+    color: #FFF;
+    background-color: #6AAD46;
+}
+.block-states p{
+    text-align: center;
+    font-family: interRegular;
+    font-size: 22px;
+    margin-top: 75px;
+}
 @font-face {
     font-family: interExtraLight;
     src: url("Fonts/Inter-ExtraLight.otf");
@@ -134,4 +194,8 @@ body {
 @font-face {
     font-family: interLight;
     src: url("Fonts/Inter-Light.otf");
+}
+@font-face {
+    font-family: interSemiBold;
+    src: url("Fonts/Inter-SemiBold.otf");
 }
