@@ -129,6 +129,7 @@ body {
     background-color: #E1E2DB;
     margin-top: 42px;
     margin-left: 410px;
+    box-shadow: 0 4px 4px 0 #00000025;
 }
 .card-1 img {
     margin-top: 22px;
@@ -177,11 +178,63 @@ body {
     color: #FFF;
     background-color: #6AAD46;
 }
-.block-states p{
+.p-style {
     text-align: center;
     font-family: interRegular;
     font-size: 22px;
     margin-top: 75px;
+    margin-bottom: 9px;
+}
+.block-states {
+    margin: 0 auto;
+}
+.a-link {
+    position: absolute;
+    top: 225px;
+    right: 42px;
+    font-family: interLight;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+}
+.a-link img {
+    margin-left: 9px;
+}
+.a-link:hover {
+    color: #6AAD46;
+}
+.states {
+    width: 1261px;
+    height: 281px;
+    background-color: #EAEDE7;
+    box-shadow: 0 4px 4px 0 #00000025;
+    margin-top: 9px;
+    margin-left: 325px;
+    margin-bottom: 71px;
+
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    position: relative;
+}
+.link-states {
+    font-family: interLight;
+    font-size: 16px;
+    color:#000;
+    text-underline-offset: 3px;
+}
+.states-position {
+    display: flex;
+    margin: 0 auto;
+    gap: 0 151px;
+    align-self: center;
+    text-align: center;
+}
+.states-position p {
+    margin-top: 3px;
 }
 @font-face {
     font-family: interExtraLight;
