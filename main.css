@@ -2,21 +2,25 @@
     height: 89px;
     background-color: #728567;
 }
+
 body {
-    margin:0;
+    margin: 0;
 }
+
 #listok_1 {
     position: absolute;
     z-index: -1;
     right: 0;
-    top:0;
+    top: 0;
 }
+
 #listok_2 {
     position: absolute;
     z-index: -1;
     left: 0;
     top: 367px;
 }
+
 .header {
     max-width: 1148px;
     min-height: 92px;
@@ -33,24 +37,30 @@ body {
     z-index: 2;
     flex-wrap: wrap;
 }
+
 .logo {
     font-family: interExtraLight;
     font-size: 20px;
     display: flex;
     align-items: center;
 }
+
 .logo img {
     margin-right: 6px;
 }
+
 .link {
     font-family: interRegular;
     font-size: 16px;
-    color:#000;
+    color: #000;
     text-underline-offset: 3px;
 }
+
 .link:hover {
     border-bottom: 5px solid #6AAD46;
+    text-decoration: none;
 }
+
 .nav {
     max-width: 530px;
     width: 100%;
@@ -58,6 +68,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .actions {
     display: flex;
     flex-direction: row;
@@ -66,6 +77,7 @@ body {
     width: 100%;
     justify-content: space-between;
 }
+
 .info-block {
     max-width: 843px;
     min-height: 386px;
@@ -76,22 +88,26 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 .vase-img {
     margin-left: 90px;
     margin-top: 33px;
 }
+
 .info-text p {
     margin-top: 77px;
     margin-left: 108px;
     font-family: interLight;
     font-size: 22px;
 }
-.info-text p:nth-child(2){
+
+.info-text p:nth-child(2) {
     margin-top: 35px;
     margin-left: 275px;
     font-family: interLight;
     font-size: 20px;
 }
+
 .btn-catalog {
     display: flex;
     align-items: center;
@@ -102,60 +118,84 @@ body {
     font-family: interRegular;
     font-size: 16px;
     border-radius: 30px;
-    border:0;
+    border: 0;
     box-shadow: 0 4px 4px 0 #00000025;
     margin-top: 44px;
     margin-left: 157px;
     padding-left: 33px;
     transition: all 500ms ease;
 }
+
 .btn-catalog img {
     padding-right: 11px;
     padding-bottom: 11px;
 }
+
 .btn-catalog:hover {
     cursor: pointer;
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
+
 .slaider p {
     text-align: center;
     font-family: interRegular;
     font-size: 22px;
     margin-top: 32px;
 }
-.card-1 {
-    width: 253px;
-    height: 353px;
-    background-color: #E1E2DB;
-    margin-top: 42px;
-    margin-left: 410px;
-    box-shadow: 0 4px 4px 0 #00000025;
+
+.slaider {
+    max-width: 1222px;
+    margin: 0 auto;
+
 }
+
+.card-1 {
+    max-width: 253px;
+    min-height: 353px;
+    background-color: #E1E2DB;
+    box-shadow: 0 4px 4px 0 #00000025;
+    margin: 0 18px;
+    transition: all 0.5s;
+}
+
 .card-1 img {
     margin-top: 22px;
     margin-left: 46px;
-
+    z-index: 1;
 }
+
+.slider-body {
+    display: inline-grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    max-width: 1096px;
+    width: 100%;
+    min-height: 353px;
+    overflow: hidden;
+}
+
 .line-block {
     width: 253px;
     height: 73px;
     background-color: #FFFFFF54;
     margin-top: -35px;
-    position: absolute;
-    z-index: 1;
+    z-index: 2;
 }
+
 .line-block p {
     margin-top: 10px;
     margin-right: 165px;
     font-family: interLight;
     font-size: 16px;
 }
+
 .line-block p:nth-child(2) {
     margin-top: -7px;
     margin-right: 175px;
     font-family: interSemiBold;
     font-size: 16px;
 }
+
 .line-block p:nth-child(3) {
     margin-top: -40px;
     margin-right: 22px;
@@ -163,6 +203,7 @@ body {
     font-size: 15px;
     text-decoration: line-through;
 }
+
 .bag-add {
     font-family: interLight;
     font-size: 16px;
@@ -170,14 +211,16 @@ body {
     width: 253px;
     height: 63px;
     background-color: #4F5B4A;
-    border:0;
-    margin-top: 39px;
+    border: 0;
+    /* margin-top: 39px; */
     transition: all 500ms ease;
 }
+
 .bag-add:hover {
     color: #FFF;
     background-color: #6AAD46;
 }
+
 .p-style {
     text-align: center;
     font-family: interRegular;
@@ -185,9 +228,11 @@ body {
     margin-top: 75px;
     margin-bottom: 9px;
 }
+
 .block-states {
     margin: 0 auto;
 }
+
 .a-link {
     position: absolute;
     top: 225px;
@@ -199,12 +244,15 @@ body {
     color: #000;
     text-decoration: none;
 }
+
 .a-link img {
     margin-left: 9px;
 }
+
 .a-link:hover {
     color: #6AAD46;
 }
+
 .states {
     width: 1261px;
     height: 281px;
@@ -220,12 +268,14 @@ body {
     justify-content: space-around;
     position: relative;
 }
+
 .link-states {
     font-family: interLight;
     font-size: 16px;
-    color:#000;
+    color: #000;
     text-underline-offset: 3px;
 }
+
 .states-position {
     display: flex;
     margin: 0 auto;
@@ -233,21 +283,26 @@ body {
     align-self: center;
     text-align: center;
 }
+
 .states-position p {
     margin-top: 3px;
 }
+
 @font-face {
     font-family: interExtraLight;
     src: url("Fonts/Inter-ExtraLight.otf");
 }
+
 @font-face {
     font-family: interRegular;
     src: url("Fonts/Inter-Regular.otf");
 }
+
 @font-face {
     font-family: interLight;
     src: url("Fonts/Inter-Light.otf");
 }
+
 @font-face {
     font-family: interSemiBold;
     src: url("Fonts/Inter-SemiBold.otf");
