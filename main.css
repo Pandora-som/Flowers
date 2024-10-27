@@ -135,8 +135,7 @@ body {
     cursor: pointer;
     transform: scale(1.1);
 }
-
-.slaider p {
+#slaider-p {
     text-align: center;
     font-family: interRegular;
     font-size: 22px;
@@ -144,24 +143,34 @@ body {
 }
 
 .slaider {
+    display: flex;
+    align-items: center;
     max-width: 1222px;
     margin: 0 auto;
-
 }
 
 .card-1 {
+    display: flex;
+    flex-direction: column;
     max-width: 253px;
     min-height: 353px;
     background-color: #E1E2DB;
     box-shadow: 0 4px 4px 0 #00000025;
-    margin: 0 18px;
+    margin: 0 10px;
     transition: all 0.5s;
+    position: relative;
 }
-
 .card-1 img {
     margin-top: 22px;
-    margin-left: 46px;
     z-index: 1;
+}
+
+.img { 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .slider-body {
@@ -169,7 +178,7 @@ body {
     grid-auto-columns: max-content;
     grid-auto-flow: column;
     max-width: 1096px;
-    width: 100%;
+    width: 100%; 
     min-height: 353px;
     overflow: hidden;
 }
@@ -178,27 +187,36 @@ body {
     width: 253px;
     height: 73px;
     background-color: #FFFFFF54;
-    margin-top: -35px;
+    margin-top: 218px;
     z-index: 2;
+    position: relative;
+    bottom: 0;
+}
+
+.price {
+    display: flex;
+    margin-bottom: 15px;
 }
 
 .line-block p {
-    margin-top: 10px;
-    margin-right: 165px;
+    margin: 0;
+    margin-left: 14px;
+    margin-top: 13px;
     font-family: interLight;
     font-size: 16px;
+    text-align: left;
 }
 
-.line-block p:nth-child(2) {
-    margin-top: -7px;
-    margin-right: 175px;
+.price p:nth-child(1) {
+    margin-top: 10px;
+    margin-left: 15px;
     font-family: interSemiBold;
     font-size: 16px;
 }
 
-.line-block p:nth-child(3) {
-    margin-top: -40px;
-    margin-right: 22px;
+.price p:nth-child(2) {
+    margin-top: 5px;
+    margin-left: 20px;
     font-family: interRegular;
     font-size: 15px;
     text-decoration: line-through;
@@ -212,8 +230,9 @@ body {
     height: 63px;
     background-color: #4F5B4A;
     border: 0;
-    /* margin-top: 39px; */
     transition: all 500ms ease;
+    position: absolute;
+    bottom: 0;
 }
 
 .bag-add:hover {
@@ -231,6 +250,7 @@ body {
 
 .block-states {
     margin: 0 auto;
+    margin-bottom: 71px;
 }
 
 .a-link {
@@ -287,7 +307,45 @@ body {
 .states-position p {
     margin-top: 3px;
 }
-
+.footer {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 291px;
+    background-color: #728567;
+}
+.footer-text {
+    display: grid;
+    width: 1123px;
+    grid-template-columns: repeat(4, 281px);
+    margin: 0 auto;
+    align-items: start;
+    justify-content: space-between;
+}
+#listok-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.block-f h3 {
+    display: flex;
+    align-items: center;
+    font-family: interMedium;
+    font-size: 20px;
+    color: #C5C5AC;
+}
+.block-f img { 
+    margin-right: 9px;
+}
+.footer h3 {
+    font-family: interMedium;
+    font-size: 20px;
+}
+.footer-text p {
+    font-family: interLight;
+    font-size: 16px;
+    color: #C5C5AC;
+}
 @font-face {
     font-family: interExtraLight;
     src: url("Fonts/Inter-ExtraLight.otf");
@@ -307,3 +365,8 @@ body {
     font-family: interSemiBold;
     src: url("Fonts/Inter-SemiBold.otf");
 }
+@font-face {
+    font-family: interMedium;
+    src: url("Fonts/Inter-Medium.otf");
+}
+/* 愛してる */

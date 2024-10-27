@@ -12,16 +12,16 @@ function nextElem() {
     nextButton.inert = true;
     prevButton.inert = true;
     setTimeout(enableButtons, 500, prevButton, nextButton);
-    for (let i of cards) {
+    for (let card of cards) {
 
-        const leftRange = parseInt(getComputedStyle(i).translate);
-        const widthElem = parseInt(i.offsetWidth);
+        const leftRange = parseInt(getComputedStyle(card).translate);
+        const widthElem = parseInt(card.offsetWidth + 20);
         console.log(leftRange, widthElem)
         if (leftRange) {
-            i.style = `translate: ${leftRange - widthElem}px`;
+            card.style = `translate: ${leftRange - widthElem}px`;
             continue;
         }
-        i.style = `translate: -${widthElem}px`;
+        card.style = `translate: -${widthElem}px`;
     }
 }
 function prevElem() {
@@ -30,14 +30,14 @@ function prevElem() {
     prevButton.inert = true;
     setTimeout(enableButtons, 500, prevButton, nextButton);
 
-    for (let i of cards) {
-        const leftRange = parseInt(getComputedStyle(i).translate);
-        const widthElem = parseInt(i.offsetWidth);
+    for (let card of cards) {
+        const leftRange = parseInt(getComputedStyle(card).translate);
+        const widthElem = parseInt(card.offsetWidth + 20);
         if (leftRange) {
-            i.style = `translate: ${leftRange + widthElem}px`;
+            card.style = `translate: ${leftRange + widthElem}px`;
             continue;
         }
-        i.style = `translate: +${widthElem}px`;
+        card.style = `translate: +${widthElem}px`;
     }
 }
 function enableButtons(prev, next) {
