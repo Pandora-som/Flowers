@@ -271,6 +271,7 @@ body {
 
 .a-link:hover {
     color: #6AAD46;
+    text-decoration: underline;
 }
 
 .states {
@@ -295,7 +296,10 @@ body {
     color: #000;
     text-underline-offset: 3px;
 }
-
+.link-states:hover {
+    color:#6AAD46;
+    text-decoration: underline;
+}
 .states-position {
     display: flex;
     margin: 0 auto;
@@ -345,6 +349,15 @@ body {
     font-family: interLight;
     font-size: 16px;
     color: #C5C5AC;
+}
+.footer-text a {
+    font-family: interLight;
+    font-size: 16px;
+    color: #C5C5AC;
+    text-decoration: none;
+}
+.link-footer:hover {
+    color:#3F453C;
 }
 @font-face {
     font-family: interExtraLight;
