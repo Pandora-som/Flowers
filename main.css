@@ -359,6 +359,41 @@ body {
 .link-footer:hover {
     color:#3F453C;
 }
+#catalog-p {
+    font-family: interRegular;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 32px;
+}
+.catalog-body {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.catalog-part {
+    display: inline-grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    max-width: 1096px;
+    width: 100%; 
+    min-height: 353px;
+    overflow: hidden;
+}
+/*.catalog-part2 {
+    margin-top: 488px;
+    display: inline-grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    max-width: 1096px;
+    width: 100%; 
+    min-height: 353px;
+    overflow: hidden;
+}*/
+.link-goods{
+    color: #000;
+    text-decoration: none;
+}
 @font-face {
     font-family: interExtraLight;
     src: url("Fonts/Inter-ExtraLight.otf");
@@ -382,4 +417,3 @@ body {
     font-family: interMedium;
     src: url("Fonts/Inter-Medium.otf");
 }
-/* 愛してる */
