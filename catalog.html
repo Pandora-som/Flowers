@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog</title>
     <link rel="stylesheet" href="catalog.css">
 </head>
+
 <body>
     <div class="header_line"></div>
 
@@ -32,7 +34,8 @@
     <!--<div>
         <p id="catalog-p">КАТАЛОГ</p>
     </div>-->
-    <div class="catalog-body">
+    <div class="catalog">
+        <!-- первая часть -->
         <div class="catalog-part">
             <div class="card-1">
                 <div class="img">
@@ -54,8 +57,8 @@
                 <div class="line-block">
                     <p>ПАЛЬМА КАРЛИКОВАЯ</p>
                     <div class="price">
-                    <p>1608 Р</p>
-                    <p>3285 Р</p>
+                        <p>1608 Р</p>
+                        <p>3285 Р</p>
                     </div>
                 </div>
                 <button class="bag-add">В КОРЗИНУ</button>
@@ -67,8 +70,8 @@
                 <div class="line-block">
                     <p>КОРДИЛИНА</p>
                     <div class="price">
-                    <p>1108 Р</p>
-                    <p>2138 Р</p>
+                        <p>1108 Р</p>
+                        <p>2138 Р</p>
                     </div>
                 </div>
                 <button class="bag-add">В КОРЗИНУ</button>
@@ -80,13 +83,14 @@
                 <div class="line-block">
                     <p>САМШИТ</p>
                     <div class="price">
-                    <p>2638 Р</p>
+                        <p>2638 Р</p>
                     </div>
                 </div>
                 <button class="bag-add">В КОРЗИНУ</button>
             </div>
         </div>
-        <!--<div class="catalog-part2">
+        <!-- вторая часть -->
+        <div class="catalog-part">
             <div class="card-1">
                 <div class="img">
                     <img src="IMG/Pahira-IMG.svg">
@@ -107,8 +111,8 @@
                 <div class="line-block">
                     <p>ПАЛЬМА КАРЛИКОВАЯ</p>
                     <div class="price">
-                    <p>1608 Р</p>
-                    <p>3285 Р</p>
+                        <p>1608 Р</p>
+                        <p>3285 Р</p>
                     </div>
                 </div>
                 <button class="bag-add">В КОРЗИНУ</button>
@@ -120,8 +124,8 @@
                 <div class="line-block">
                     <p>КОРДИЛИНА</p>
                     <div class="price">
-                    <p>1108 Р</p>
-                    <p>2138 Р</p>
+                        <p>1108 Р</p>
+                        <p>2138 Р</p>
                     </div>
                 </div>
                 <button class="bag-add">В КОРЗИНУ</button>
@@ -133,14 +137,77 @@
                 <div class="line-block">
                     <p>САМШИТ</p>
                     <div class="price">
-                    <p>2638 Р</p>
+                        <p>2638 Р</p>
                     </div>
                 </div>
                 <button class="bag-add">В КОРЗИНУ</button>
             </div>
         </div>
-    </div>-->
-    <!--<div class="footer">
+        <!-- третья часть -->
+        <div class="catalog-part">
+            <div class="card-1">
+                <div class="img">
+                    <img src="IMG/Pahira-IMG.svg">
+                </div>
+                <div class="line-block">
+                    <p>ПАХИРА</p>
+                    <div class="price">
+                        <p>1608 Р</p>
+                        <p>3285 Р</p>
+                    </div>
+                </div>
+                <button class="bag-add">В КОРЗИНУ</button>
+            </div>
+            <div class="card-1">
+                <div class="img">
+                    <img src="IMG/Palma.svg">
+                </div>
+                <div class="line-block">
+                    <p>ПАЛЬМА КАРЛИКОВАЯ</p>
+                    <div class="price">
+                        <p>1608 Р</p>
+                        <p>3285 Р</p>
+                    </div>
+                </div>
+                <button class="bag-add">В КОРЗИНУ</button>
+            </div>
+            <div class="card-1">
+                <div class="img">
+                    <img src="IMG/Cordylina.svg">
+                </div>
+                <div class="line-block">
+                    <p>КОРДИЛИНА</p>
+                    <div class="price">
+                        <p>1108 Р</p>
+                        <p>2138 Р</p>
+                    </div>
+                </div>
+                <button class="bag-add">В КОРЗИНУ</button>
+            </div>
+            <div class="card-1">
+                <div class="img">
+                    <img src="IMG/Samshit.svg">
+                </div>
+                <div class="line-block">
+                    <p>САМШИТ</p>
+                    <div class="price">
+                        <p>2638 Р</p>
+                    </div>
+                </div>
+                <button class="bag-add">В КОРЗИНУ</button>
+            </div>
+        </div>
+        <!-- навигация по каталогу -->
+        <nav class="catalog-nav">
+            <button id="strelka-left"></button>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <button id="strelka-right"></button>
+        </nav>
+    </div>
+    <img src="IMG/listok-3.svg" id="listok-3">
+    <div class="footer">
         <div class="footer-text">
             <div class="block-f">
                 <h3><img src="IMG/MenuIcon.svg" height="45px" width="45px" alt="logo">ExoPlants</h3>
@@ -166,12 +233,12 @@
                 <h3>Контакты</h3>
                 <p>ул. Карла Маркса 48, Нижний Тагил</p>
                 <p>+ 7 975 816 98 47</p>
-                <img src="IMG/VK-icon.svg">  я вот такой кошмар сделала 
+                <img src="IMG/VK-icon.svg">
                 <img src="IMG/Telegram-icon.svg">
                 <img src="IMG/Whatsup-icon.svg">
             </div>
         </div>
-        <img src="IMG/listok-3.svg" id="listok-3">
-    </div>-->
 </body>
+<script src="catalogPages.js"></script>
+
 </html>

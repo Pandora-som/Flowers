@@ -394,6 +394,9 @@ body {
     color: #000;
     text-decoration: none;
 }
+.link-goods:hover {
+    color: #3F453C;
+}
 @font-face {
     font-family: interExtraLight;
     src: url("Fonts/Inter-ExtraLight.otf");
