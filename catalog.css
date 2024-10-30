@@ -274,7 +274,8 @@ body {
     font-family: interRegular;
     font-size: 22px;
     text-align: center;
-    margin-top: 32px;
+    margin: 0;
+    margin-bottom: 32px;
 }
 .catalog {
     max-width: 1200px;
@@ -299,8 +300,12 @@ body {
     margin: 0 auto;
     width: 230px;
     margin-bottom: 29px;
+    font-family: interSemiBold;
+    font-size: 19px;
 }
-
+.catalog-nav p:hover {
+    cursor: pointer;
+}
 #strelka-left {
     border: none;
     width: 33px;

@@ -338,6 +338,9 @@ body {
     font-size: 20px;
     color: #C5C5AC;
 }
+.info-text a {
+    text-decoration: none;
+}
 .block-f img { 
     margin-right: 9px;
 }
