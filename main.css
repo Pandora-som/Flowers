@@ -298,7 +298,7 @@ body {
 }
 .link-states:hover {
     color:#6AAD46;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .states-position {
     display: flex;
