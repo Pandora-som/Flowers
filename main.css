@@ -88,6 +88,9 @@ body {
     margin-left: 117px;
     display: flex;
     flex-direction: row;
+
+    align-self: center;
+    margin: 0 auto;
 }
 
 .vase-img {
@@ -180,7 +183,7 @@ body {
     display: inline-grid;
     grid-auto-columns: max-content;
     grid-auto-flow: column;
-    width: 1096px;
+    max-width: 1096px;
     width: 100%; 
     min-height: 353px;
     overflow: hidden;
@@ -292,6 +295,10 @@ body {
     align-self: center;
     justify-content: space-around;
     position: relative;
+
+    
+    align-self: center;
+    margin: 0 auto;
 }
 
 .link-states {
