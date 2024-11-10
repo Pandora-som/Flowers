@@ -280,7 +280,7 @@ body {
     margin-bottom: 32px;
 }
 .catalog {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -291,7 +291,7 @@ body {
     grid-template-columns: repeat(4, 257px);
     grid-template-rows: repeat(3, 353px);
     width: 1096px;
-    
+    width: 100%;
     overflow: hidden;
     gap: 50px 29px;
 }

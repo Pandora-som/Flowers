@@ -85,7 +85,7 @@ body {
     background-color: #EAEDE7;
     box-shadow: 0 4px 4px 0 #00000025;
     margin-top: 74px;
-    margin-left: 410px;
+    margin-left: 117px;
     display: flex;
     flex-direction: row;
 }
@@ -180,7 +180,7 @@ body {
     display: inline-grid;
     grid-auto-columns: max-content;
     grid-auto-flow: column;
-    max-width: 1096px;
+    width: 1096px;
     width: 100%; 
     min-height: 353px;
     overflow: hidden;
@@ -284,7 +284,7 @@ body {
     background-color: #EAEDE7;
     box-shadow: 0 4px 4px 0 #00000025;
     margin-top: 9px;
-    margin-left: 325px;
+    /*margin-left: 4px;*/
     margin-bottom: 71px;
 
     display: flex;
