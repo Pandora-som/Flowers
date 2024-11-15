@@ -128,6 +128,91 @@ body {
 .link-footer:hover {
     color:#3F453C;
 }
+
+/*.textcols {
+    white-space: nowrap;
+    font-family: interLight;
+}
+.textcols-item {
+    white-space: normal;
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+.textcols .textcols-item:first-child {
+    margin-right: 2%;
+}*/
+
+.price {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.price p:nth-child(1) {
+    margin-top: 10px;
+    margin-left: 65px;
+    font-family: interSemiBold;
+    font-size: 28px;
+}
+
+.price p:nth-child(2) {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: interRegular;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+/*.good-info-body {
+    max-width: 531px;
+    min-height: 646px;
+    background-color: #EAEDE7;
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: interRegular;
+    font-size: 22px;
+}*/
+
+
+.quantity {
+    padding-top: 20px;
+    margin-left: 141px;
+    user-select: none;
+  }
+  .quantity input {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 79px;
+    height: 68px;
+    background: none;
+    font-size: 22px;
+    font-family:interBold;
+    color: #6AAD46;
+  }
+   
+  button[class*=btn] {
+    width: 79px;
+    height: 72px;
+    background-color: #FFF;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  .minus-btn img {
+    margin-bottom: 0px;
+  }
+  .plus-btn img {
+    margin-top: 2px;
+  }
+   
+  button:focus,
+  input:focus {
+    outline:0;
+  }
+
 @font-face {
     font-family: interExtraLight;
     src: url("Fonts/Inter-ExtraLight.otf");
@@ -139,7 +224,7 @@ body {
     background-color: #E1E2DB;
     box-shadow: 0 4px 4px 0 #00000025;
     margin-top: 100px;
-    margin-left: 410px;
+    margin-left: 400px;
     display: flex;
     flex-direction: row;
 }
@@ -173,46 +258,35 @@ body {
     gap: 0 87px;
     align-self: center;
     margin-top: 32px;
-    margin-left: 407px;
+    margin-left: 400px;
+    margin-bottom: 50px;
 }
 .good-info-body {
-    /*max-width: 531px;
-    min-height: 739px;
-    background-color: #E1E2DB;
+    max-width: 531px;
+    min-height: 646px;
+    width: 100%;
+    background-color: #EAEDE7;
     box-shadow: 0 4px 4px 0 #00000025;
-    margin-top: -800px;
+    margin-top: -850px;
     margin-left: 970px;
     margin-bottom: 179px;
+    
+}
+.center {
+    height: 27px;
+    width: 89px;
     display: flex;
-    flex-direction:row;*/
-
-    position: relative;
-    margin: 0;
-    width: 100%;
-    max-width: 531px;
-    min-height: 739px;
-    background-color: #E1E2DB;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: interRegular;
 }
 .good-text {
-    display: grid;
-    width: 330px;
-    grid-template-columns: repeat(2, 100px);
-    margin: 0 auto;
-    align-items: start;
-    justify-content: space-between;
-}
-
-/*.p-main {
-    text-align: center;
-    margin-top: 19px;
-    height: 24px;
-    width: 531px;
-}*/
-/*.good-text p {
     margin-left: 27px; 
+    margin-top: 61px;
     font-family: interLight;
     font-size: 20px;
-}*/
+}
 .bag-add {
     font-family: interLight;
     font-size: 24px;
@@ -223,7 +297,8 @@ body {
     border: 0;
     transition: all 500ms ease;
     position: absolute;
-    margin-top: 647px;
+    margin-top: 70px;
+    
 }
 
 .bag-add:hover {
@@ -247,4 +322,8 @@ body {
 @font-face {
     font-family: interMedium;
     src: url("Fonts/Inter-Medium.otf");
+}
+@font-face {
+    font-family: interBold;
+    src: url("Fonts/Inter-Bold.otf");
 }
