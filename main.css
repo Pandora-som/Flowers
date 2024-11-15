@@ -411,6 +411,7 @@ body {
 }
 .link-goods:hover {
     color: #3F453C;
+    font-weight: 1000;
 }
 @font-face {
     font-family: interExtraLight;
