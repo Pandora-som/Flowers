@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>ExoPlants</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="global.css">
 </head>
 
 <body>
@@ -19,9 +20,9 @@
         </div>
         <nav class="nav">
             <a href="#" class="link">Статьи</a>
-            <a href="#" class="link">Семена</a>
-            <a href="#" class="link">Саженцы</a>
-            <a href="#" class="link">Комнатные растения</a>
+            <a href="seeds.html" class="link">Семена</a>
+            <a href="sags.html" class="link">Саженцы</a>
+            <a href="plants.html" class="link">Комнатные растения</a>
         </nav>
         <div class="actions">
             <img src="IMG/SearchIcon.svg">
@@ -29,19 +30,21 @@
             <img src="IMG/Account.svg">
         </div>
     </div>
-    <div class="info-block">
-        <img src="IMG/VaseGroup.svg" class="vase-img">
-        <div class="info-text">
-            <p>МЫ ПОМОЖЕМ СОЗДАТЬ<br>
-                УЮТ И КОМФОРТ<br>
-                В ВАШЕМ ДОМЕ</p>
-            <p>Вырастите новый мир<br>
-                вместе с нами!</p>
-            <a href="catalog.html">
-                <button class="btn-catalog">Каталог
-                    <img src="IMG/SelectGroup.svg" height="33px" width="33px" alt="catalog-btn">
-                </button>
-            </a>
+    <div class="positioner">
+        <div class="info-block">
+            <img src="IMG/VaseGroup.svg" class="vase-img">
+            <div class="info-text">
+                <p class="info-1">МЫ ПОМОЖЕМ СОЗДАТЬ<br>
+                    УЮТ И КОМФОРТ<br>
+                    В ВАШЕМ ДОМЕ</p>
+                <p class="info-2">Вырастите новый мир<br>
+                    вместе с нами!</p>
+                <a href="catalog.html">
+                    <button class="btn-catalog">Каталог
+                        <img src="IMG/SelectGroup.svg" height="33px" width="33px" alt="catalog-btn">
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
     <img src="IMG/listok_2.svg" alt="listok_2" id="listok_2">
@@ -55,7 +58,7 @@
                         <img src="IMG/Pahira-IMG.svg">
                     </div>
                     <div class="line-block">
-                        <a href="good-card.html" class="link-goods"><p>ПАХИРА</p></a>
+                        <p>ПАХИРА</p>
                         <div class="price">
                             <p>1608 Р</p>
                             <p>3285 Р</p>
@@ -70,8 +73,8 @@
                     <div class="line-block">
                         <p>ПАЛЬМА КАРЛИКОВАЯ</p>
                         <div class="price">
-                        <p>1608 Р</p>
-                        <p>3285 Р</p>
+                        <p>2008 Р</p>
+                        <p>4368 Р</p>
                         </div>
                     </div>
                     <button class="bag-add">В КОРЗИНУ</button>
@@ -187,17 +190,23 @@
         <div class="states">
             <div class="states-position">
                <div class="states-img">
-                    <img src="IMG/FeedGroup.svg" height="112px" width="117px" alt="feed-img">
-                    <p><a href="#" class="link-states">Подкорм</a></p>
-                </div>
-                <div class="states-img">
-                    <img src="IMG/CareGroup.svg" height="112px" width="117px" alt="care-img">
-                    <p><a href="#" class="link-states">Уход</a></p>
-                </div>
-                <div class="states-img">
-                    <img src="IMG/LightGroup.svg" height="112px" width="117px" alt="light-img">
-                    <p><a href="#" class="link-states">Свет</a></p>
-                </div>
+                    <div>
+                        <img src="IMG/FeedGroup.svg" height="112px" width="117px" alt="feed-img">
+                        <p><a href="#" class="link-states">Подкорм</a></p>
+                    </div>
+               </div>
+               <div class="states-img">
+                    <div>
+                        <img src="IMG/CareGroup.svg" height="112px" width="117px" alt="care-img">
+                        <p><a href="#" class="link-states">Уход</a></p>
+                    </div>
+               </div>
+               <div class="states-img">
+                    <div>
+                        <img src="IMG/LightGroup.svg" height="112px" width="117px" alt="light-img">
+                        <p><a href="#" class="link-states">Свет</a></p>
+                    </div>
+               </div>
             </div>
             <a href="#" class="a-link">Больше в наших статьях <img src="IMG/ArrowRight (1).svg"></a>
         </div>
@@ -205,37 +214,48 @@
     <div class="footer">
         <div class="footer-text">
             <div class="block-f">
-                <h3><img src="IMG/MenuIcon.svg" height="45px" width="45px" alt="logo">ExoPlants</h3>
-                <p>Мы помогаем вам<br>
-                    стать лучше!</p>
+                <div>
+                    <h3><img src="IMG/MenuIcon.svg" height="45px" width="45px" alt="logo">ExoPlants</h3>
+                    <p>Мы помогаем вам</p>
+                    <p>стать лучше!</p>
+                </div>
             </div>
             <div class="block-f">
-                <h3>Меню</h3>
-                <a href="#" class="link-footer">О нас</a><br><br>
-                <a href="catalog.html" class="link-footer">Каталог</a><br><br>
-                <a href="#" class="link-footer">Статьи</a>
+                <div>
+                    <h3>Меню</h3>
+                    <a href="#" class="link-footer">О нас</a><br><br>
+                    <a href="catalog.html" class="link-footer">Каталог</a><br><br>
+                    <a href="#" class="link-footer">Статьи</a>
+                </div>
             </div>
 
 
             <div class="block-f">
-                <h3>Информация</h3>
-                <a href="#" class="link-footer">Конфиденциальность</a><br><br>
-                <a href="#" class="link-footer">Как сделать заказ</a><br><br>
-                <a href="#" class="link-footer">Доставка</a>
+                <div>
+                    <h3>Информация</h3>
+                    <a href="#" class="link-footer">Конфиденциальность</a><br><br>
+                    <a href="#" class="link-footer">Как сделать заказ</a><br><br>
+                    <a href="#" class="link-footer">Доставка</a>
+                </div>
             </div>
 
             <div class="block-f">
-                <h3>Контакты</h3>
-                <p>ул. Карла Маркса 48, Нижний Тагил</p>
-                <p>+ 7 975 816 98 47</p>
-                <img src="IMG/VK-icon.svg">
-                <img src="IMG/Telegram-icon.svg">
-                <img src="IMG/Whatsup-icon.svg">
+                <div>
+                    <h3>Контакты</h3>
+                    <p>ул. Карла Маркса 48, Нижний Тагил</p>
+                    <p>+ 7 975 816 98 47</p>
+                    <div class="img-contacts">
+                        <img src="IMG/VK-icon.svg">
+                        <img src="IMG/Telegram-icon.svg">
+                        <img src="IMG/Whatsup-icon.svg">
+                    </div>
+                </div>
             </div>
         </div>
         <img src="IMG/listok-3.svg" id="listok-3">
     </div>
     <script src="main.js"></script>
+    <script src="globalValues.js"></script>
 </body>
 
 </html>

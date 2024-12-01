@@ -16,7 +16,7 @@ function nextElem() {
 
         const leftRange = parseInt(getComputedStyle(card).translate);
         const widthElem = parseInt(card.offsetWidth + 20);
-        console.log(leftRange, widthElem)
+        
         if (leftRange) {
             card.style = `translate: ${leftRange - widthElem}px`;
             continue;
@@ -41,16 +41,24 @@ function prevElem() {
     }
 }
 function enableButtons(prev, next) {
+    let cardCount = Math.floor(window.innerWidth / 253)
+    
+    if (cardCount > 4) {
+        cardCount = 4
+    }
+    
     if (currentPage === 0) {
         prev.inert = true;
         next.inert = false;
         return;
     }
-    if (currentPage === lenSlider - 4) {
+    
+    if (currentPage === lenSlider - cardCount) {
         next.inert = true;
         prev.inert = false;
         return;
     }
+    
     prev.inert = false;
     next.inert = false;
 }
