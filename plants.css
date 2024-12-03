@@ -211,7 +211,7 @@ body {
     width: 33px;
     height: 33px;
     border-radius: 100%;
-    background: no-repeat url('../IMG/strelka-left-mini.svg') center, #5C6B54;
+    background: no-repeat url('IMG/strelka-left-mini.svg') center, #5C6B54;
     box-shadow: 0 4px 4px 0 #00000025;
 }
 
@@ -220,7 +220,7 @@ body {
     width: 33px;
     height: 33px;
     border-radius: 100%;
-    background: no-repeat url('../IMG/strelka-right-mini.svg') center, #5C6B54;
+    background: no-repeat url('IMG/strelka-right-mini.svg') center, #5C6B54;
     box-shadow: 0 4px 4px 0 #00000025;
 }
 
